@@ -1,7 +1,8 @@
 ---
 title: "How easy to setup YARN cluster"
 date: 2015-07-31 14:38:47 +0800
-categories: [hadoop, yarn]
+categories: [bigdata]
+tags: [hadoop, yarn]
 ---
 
 **YARN** is a task execute system for **Hadoop**
