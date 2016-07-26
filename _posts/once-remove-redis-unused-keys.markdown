@@ -7,12 +7,12 @@ tags: [redis]
 
 在我们的一个系统中，使用一个Redis存储所有的Cache数据。后期因为Redis本身占用资源过大，加入一个新的Redis，而原来Redis中只保留了一种种类数据。此时需要将**原Redis**中的不使用的数据进行清理。此文就记录了这样一个过程。
 
-# 1.将Redis的rdb文件导出
+# 将Redis的rdb文件导出
 通常有两种方案：
 - 直接使用copy命令复制dump.rdb文件；
 - 通过redis-cli的--rdb命令导出。
 
-# 2.将要删除的Key从rdb中导出来
+# 将要删除的Key从rdb中导出来
 
 需要首先安装[redis-rdb-tools](https://github.com/sripathikrishnan/redis-rdb-tools), 可使用pip安装：
 ``` bash
@@ -46,7 +46,7 @@ PREFIX_USER_MSG_c0c694ddbec7a82d1755fcd79026260e834a0e29_0
 PREFIX_USER_MSG_e246022a79f1fbd52b3dbecef18c51d27a6f3e9f_0
 ```
 
-# 3.操作过程中遇到的一些坑
+# 操作过程中遇到的一些坑
 - 使用[csvtool](https://github.com/Chris00/ocaml-csv)无法操作**大文件**，所以采用awk代替。
 - 使用bash脚本来读取rkeys.txt进而调用**redis-cli del**来进行KEY的删除很容易出现“特殊字符”问题，所以尽量使用程序来删除。
 
