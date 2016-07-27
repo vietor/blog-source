@@ -2,7 +2,7 @@
 title: "How easy to setup HBase Fully-distributed"
 date: 2016-07-26 21:38:07 +0800
 categories: [bigdata]
-tags: [hadoop, hbase]
+tags: [hadoop, hbase, english]
 ---
 
 **HBase** is a NoSQL database under **Hadoop**

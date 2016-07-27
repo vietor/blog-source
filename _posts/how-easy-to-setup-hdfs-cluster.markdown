@@ -2,7 +2,7 @@
 title: "How easy to setup HDFS cluster"
 date: 2015-04-17 09:38:47 +0800
 categories: [bigdata]
-tags: [hadoop, hdfs]
+tags: [hadoop, hdfs, english]
 ---
 
 **HDFS** is a file store system for **Hadoop**

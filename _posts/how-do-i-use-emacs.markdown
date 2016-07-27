@@ -1,7 +1,8 @@
 ---
 title: "How do i use Emacs"
 date: 2014-12-29 10:41:58 +0800
-categories: [emacs]
+categories: [tools]
+tags: [emacs, english]
 ---
 
 **Emacs** is a powerful programme editor.
