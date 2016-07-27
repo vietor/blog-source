@@ -35,7 +35,11 @@ tags: [hadoop, hbase]
   </property>
   <property>
     <name>hbase.zookeeper.quorum</name>
-    <value>192.168.100.2:2181</value>
+    <value>192.168.2.12</value>
+  </property>
+  <property>
+    <name>hbase.zookeeper.clientPort</name>
+    <value>2181</value>
   </property>
   <property>
     <name>zookeeper.znode.parent</name>
@@ -65,7 +69,11 @@ hbase.master.hostname set real ip address with itself, don't try the hostname.
   </property>
   <property>
     <name>hbase.zookeeper.quorum</name>
-    <value>192.168.100.2:2181</value>
+    <value>192.168.2.12</value>
+  </property>
+  <property>
+    <name>hbase.zookeeper.clientPort</name>
+    <value>2181</value>
   </property>
   <property>
     <name>zookeeper.znode.parent</name>
