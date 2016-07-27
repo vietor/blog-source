@@ -35,7 +35,11 @@ tags: [hadoop, hbase]
   </property>
   <property>
     <name>hbase.zookeeper.quorum</name>
-    <value>192.168.100.2</value>
+    <value>192.168.100.2:2181</value>
+  </property>
+  <property>
+    <name>zookeeper.znode.parent</name>
+    <value>/hbase</value>
   </property>
   <property>
     <name>hbase.master.hostname</name>
@@ -43,6 +47,7 @@ tags: [hadoop, hbase]
   </property>
 </configuration>
 ```
+hbase.master.hostname set real ip address with itself, don't try the hostname.
 
 ### RegionServer (192.168.200.2/3)
 
@@ -60,7 +65,11 @@ tags: [hadoop, hbase]
   </property>
   <property>
     <name>hbase.zookeeper.quorum</name>
-    <value>192.168.100.2</value>
+    <value>192.168.100.2:2181</value>
+  </property>
+  <property>
+    <name>zookeeper.znode.parent</name>
+    <value>/hbase</value>
   </property>
   <property>
     <name>hbase.regionserver.hostname</name>
