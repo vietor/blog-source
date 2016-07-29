@@ -2,10 +2,10 @@
 title: "How easy to setup HBase Fully-distributed"
 date: 2016-07-26 21:38:07 +0800
 categories: [bigdata]
-tags: [hadoop, hbase, english]
+tags: [hadoop, phoenix, hbase, english]
 ---
 
-**HBase** is a NoSQL database under **Hadoop**
+**HBase** is a NoSQL under **Hadoop**.
 
 ## Environment
 
@@ -120,3 +120,12 @@ hbase.regionserver.hostname set real ip address with itself, don't try the hostn
 ## Web interface
 
 Open http://192.168.200.1:16010 in web browser, enjoy it.
+
+## Phoenix Installed
+
+**Phoenix** is a SQL wapper for **HBase**.
+
+* Download phoenix-[version]-bin.tar.gz from [phoenix.apache.org](https://phoenix.apache.org/download.html)
+* Extract phoenix-[version]-server.jar and **Copy** it to '/opt/hbase/lib' directory in **All HBase instance**
+* Restart Add HBase instance.
+* How to usage it? [Click here](http://phoenix.apache.org/Phoenix-in-15-minutes-or-less.html)
