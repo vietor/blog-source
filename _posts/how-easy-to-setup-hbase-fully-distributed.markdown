@@ -142,8 +142,6 @@ Open http://192.168.200.1:16010 in web browser, enjoy it.
 
 * Download phoenix-[version]-bin.tar.gz from [phoenix.apache.org](https://phoenix.apache.org/download.html)
 * Extract phoenix-[version]-server.jar and **Copy** it to '/opt/hbase/lib' directory in **All HBase instance**
-* Restart Add HBase instance.
-* How to usage it? [Click here](http://phoenix.apache.org/Phoenix-in-15-minutes-or-less.html)
 
 ### Configuration
 
@@ -155,3 +153,8 @@ Open http://192.168.200.1:16010 in web browser, enjoy it.
     <value>false</value>
 </property>
 ```
+
+### Usage
+
+* Restart All HBase instance after installed.
+* How to connect it? [Click here](http://phoenix.apache.org/Phoenix-in-15-minutes-or-less.html)
