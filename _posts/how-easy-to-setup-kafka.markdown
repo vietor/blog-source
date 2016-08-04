@@ -31,7 +31,7 @@ $ mkdir /kafka
 ``` ini
 port=9092
 log.dirs=/kafka
-zookeeper.connect=192.168.2.12:2181/kafka
+zookeeper.connect=192.168.100.2:2181/kafka
 ```
 
 ### Node (192.168.200.1)
