@@ -89,11 +89,9 @@ hbase.master.hostname set real ip address with itself, don't try the hostname.
 
 hbase.regionserver.hostname set real ip address with itself, don't try the hostname.
 
-### More Configuration
+### More Configuration (conf/hbase-site.xml)
 
-* Modify file conf/hbase-site.xml
-
-- HBase files replication in HDFS
+* HBase files replication in HDFS
 
 ``` xml
 <property>
