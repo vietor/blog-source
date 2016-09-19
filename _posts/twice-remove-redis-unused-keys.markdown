@@ -31,7 +31,7 @@ database,type,key,size_in_bytes,encoding,num_elements,len_largest_element,ttl
 
 将CSV中TTL小于4年的KEY字段导出：
 ``` bash
-sed '1d' usertoken_keys.csv | awk -F',' '{if($8 < 126144000){gsub(/[:\"]/,"",$3); print $3}}' > del_keys.csv
+sed '1d' usertoken_keys.csv | awk -F',' '{if($8 < 126144000){gsub(/[:\"]/,"",$3); print $3}}' > rkeys.csv
 ```
 此时生成的rkeys.txt文件中就包含所有的KEY，可通过写一个python程序读此文件完成实际的删除。生成文件内容样例：
 ``` bash
