@@ -14,7 +14,7 @@ tags: [redis]
 
 # 将要删除的Key从rdb中导出来
 
-需要首先安装[redis-rdb-tools](https://github.com/LesTR/redis-rdb-tools)
+需要首先手工安装[LesTR 的 redis-rdb-tools](https://github.com/LesTR/redis-rdb-tools).
 
 将带所有的KEY及TTL等信息导出到csv文件
 ``` bash
