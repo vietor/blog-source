@@ -2,7 +2,7 @@
 title: "NodeJS中直接使用POST上传文件到阿里云"
 date: 2016-04-04 10:16:00 +0800
 categories: [program]
-tags: [nodejs, 阿里云]
+tags: [nodejs]
 ---
 
 ``` javascript

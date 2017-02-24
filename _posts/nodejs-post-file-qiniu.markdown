@@ -2,7 +2,7 @@
 title: "NodeJS中直接使用POST上传文件到七牛"
 date: 2016-04-04 10:10:00 +0800
 categories: [program]
-tags: [nodejs, 七牛]
+tags: [nodejs]
 ---
 
 ``` javascript

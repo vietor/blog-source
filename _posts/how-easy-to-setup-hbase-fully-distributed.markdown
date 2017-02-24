@@ -35,7 +35,7 @@ tags: [hadoop, phoenix, hbase, english]
   </property>
   <property>
     <name>hbase.zookeeper.quorum</name>
-    <value>192.168.2.12</value>
+    <value>192.168.100.2</value>
   </property>
   <property>
     <name>hbase.zookeeper.clientPort</name>
@@ -70,7 +70,7 @@ hbase.master.hostname set real ip address with itself, don't try the hostname.
   </property>
   <property>
     <name>hbase.zookeeper.quorum</name>
-    <value>192.168.2.12</value>
+    <value>192.168.100.2</value>
   </property>
   <property>
     <name>hbase.zookeeper.clientPort</name>
@@ -134,7 +134,7 @@ hbase.regionserver.hostname set real ip address with itself, don't try the hostn
 
 Open http://192.168.200.1:16010 in web browser, enjoy it.
 
-## Phoenix Installed
+## Phoenix Installed (If you need it)
 
 **Phoenix** is a SQL wapper for **HBase**.
 
