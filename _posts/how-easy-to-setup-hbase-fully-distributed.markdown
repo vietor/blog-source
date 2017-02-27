@@ -10,6 +10,7 @@ tags: [hadoop, phoenix, hbase, english]
 ## Environment
 
 * Three installed jdk's linux server.  
+  Startup the ntpd service already.  
   Demo HBase server ip was 192.168.200.1, 192.168.200.2, 192.168.200.3.  
   Used existing HDFS server ip was 192.168.100.1.  
   Used existing Zookeeper server ip was 192.168.100.2.  
@@ -115,6 +116,8 @@ hbase.regionserver.hostname set real ip address with itself, don't try the hostn
 ``` bash
 ./bin/hbase-daemon.sh stop master
 ```
+
+> You can start more type servers, like: thrift, thrift2, rest, etc.
 
 ### RegionServer
 

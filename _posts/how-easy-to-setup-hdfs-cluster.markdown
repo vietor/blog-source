@@ -51,7 +51,6 @@ export HADOOP_LOG_DIR=/hdfs/logs
 
 ``` bash
 $ mkdir -p /hdfs/name
-$ ./bin/hdfs namenode -format default
 ```
 
 * Modify file etc/hadoop/hdfs-site.xml
@@ -68,15 +67,18 @@ $ ./bin/hdfs namenode -format default
     <value>false</value>
   </property>
   <property>
-    <name>dfs.replication</name>
-    <value>2</value>
-  </property>
-  <property>
     <name>dfs.permissions.enabled</name>
     <value>false</value>
   </property>
 </configuration>
 ```
+
+* Format namenode directory
+
+``` bash
+$ ./bin/hdfs namenode -format
+```
+
 
 ### DataNode (192.168.100.2/3)
 
